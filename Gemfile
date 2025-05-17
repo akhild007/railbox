@@ -41,3 +41,4 @@ gem 'devise'
 gem 'devise-jwt'
 gem 'jsonapi-serializer'
 gem "acts_as_api"
+gem "dotenv-rails"
