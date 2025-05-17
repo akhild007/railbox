@@ -29,6 +29,7 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
+  gem "pry"
 end
 
 group :development do
@@ -36,3 +37,7 @@ group :development do
   # gem "spring"
 end
 
+gem 'devise'
+gem 'devise-jwt'
+gem 'jsonapi-serializer'
+gem "acts_as_api"
